@@ -1,0 +1,17 @@
+/* both have to apply, if wider than 480px */
+
+@media screen and (min-width: 480px) { 
+ body {
+    background: yellow;
+  }
+}
+
+
+/* if wider than 660px, with the 2 breakpoints yellow between 480 and 660px */
+
+@media screen and (min-width: 660px) { 
+  body {
+    background: green;
+  }
+}
+   
